@@ -1,0 +1,38 @@
+.mywork {
+    background: #FFFFDE;
+    padding-top: 7%;
+    padding-bottom: 20px;
+}
+
+.mywork h2 {
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+.mywork .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+.mywork img {
+    width: 100%;
+}
+
+.mywork img:hover {
+    box-shadow: 0 0 10px 0 black;
+}
+
+.mywork .text a {
+    color: red;
+    margin-left: 47%;
+    font-size: 20px;
+}
+
+@media (max-width:990px) {
+    .mywork .grid-container {
+        grid-template-columns: auto auto;
+    }
+}

@@ -1,0 +1,36 @@
+.photography {
+    text-align: center;
+    background: #FFFFDE;
+}
+
+.photography h1 {
+    font-weight: 300;
+    padding: 50px 0;
+}
+
+.photography .grid-container {
+    /* display: flex;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+}
+
+@media (max-width:700px) {
+    .photography .grid-container {
+        grid-template-columns: auto;
+    }
+}
+
+.photography .grid-item {
+    padding: 10px;
+}
+
+.photography img {
+    width: 100%;
+    filter: brightness(110%);
+}
+
+.photography img:hover {
+    box-shadow: 0 0 12px 0 black;
+}

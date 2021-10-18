@@ -1,0 +1,221 @@
+        .head-title {
+            font-size: 35px;
+            font-weight: 400;
+        }
+        /* FIRST PAGE */
+        
+        .first-page {
+            color: white;
+            text-align: center;
+            height: 700px;
+            background-image: url(../images/homepage.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: cover;
+        }
+        
+        .first-text {
+            padding-top: 320px;
+            font-size: 40px;
+            font-weight: 700;
+            text-align: center;
+            font-family: 'Uchen', serif;
+        }
+        
+        .first-text .heading {
+            color: yellow;
+            text-shadow: 0 0 5px yellow;
+        }
+        
+        .first-text1 {
+            position: absolute;
+            top: 55%;
+            left: 21%;
+            font-size: 40px;
+            font-weight: 700;
+            text-align: center;
+            font-family: 'Uchen', serif;
+        }
+        /* SECOND PAGE */
+        
+        .second-page {
+            background-color: #fff;
+            text-align: center;
+            padding-bottom: 70px;
+        }
+        
+        @media (max-width:990px) {
+            .yellow .v {
+                display: none;
+            }
+        }
+        
+        .second-page h1 {
+            padding: 40px 0;
+        }
+        
+        .yellow {
+            background-color: #fff893;
+            margin: 0 80px;
+            padding: 60px 0;
+        }
+        
+        .v {
+            border-left: 1px solid #434442;
+            height: 250px;
+            position: absolute;
+            left: 50%;
+        }
+        
+        .logo {
+            width: 60%;
+            margin-left: 20px;
+        }
+        
+        .second-page .about h3 {
+            font-size: 23px;
+            color: #434442;
+            padding-top: 10px;
+        }
+        
+        .second-page .about p {
+            padding-top: 45px;
+            font-size: 17px;
+            color: #434442;
+        }
+        /* LINE */
+        
+        .line {
+            border-bottom: 2px solid black;
+            width: 90%;
+            margin-left: 5%;
+        }
+        /* THIRD PAGE */
+        
+        .third-page {
+            text-align: center;
+            padding-top: 30px;
+        }
+        
+        .third-page h1 {
+            font-size: 40px;
+        }
+        
+        .third-page .grid-container a {
+            text-decoration: none;
+        }
+        
+        .third-page .grid-container {
+            display: grid;
+            grid-gap: 40px;
+            margin: 40px 40px;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .third-page img {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .third-page img:hover {
+            filter: brightness(90%);
+            transition: 0.2s;
+        }
+        
+        .third-page h3 {
+            color: black;
+            font-weight: 400;
+        }
+        
+        .firstrow .grid-container {
+            grid-template-columns: 32% 57%;
+        }
+        
+        .secondrow .grid-container {
+            grid-template-columns: 57% 32%;
+        }
+        
+        .third-page h5 {
+            color: red;
+            padding-bottom: 20px;
+            font-size: 17px;
+        }
+        /* FOURTH PAGE */
+        
+        .fourth-page {
+            text-align: center;
+            padding: 30px 20px;
+        }
+        
+        .fourth-page h1 {
+            padding: 10px 0;
+        }
+        
+        .testimonials {
+            background-image: url(../images/yellow.png);
+            width: 70%;
+            margin: 30px 0;
+            margin-left: 15%;
+            padding: 60px 50px;
+            border-radius: 20px;
+            box-shadow: 0 0 15px 0 rgb(190, 190, 190);
+        }
+        /* FIFTH PAGE */
+        
+        .fifth-page {
+            text-align: center;
+        }
+        
+        .fifth-page img {
+            height: 650px;
+            position: absolute;
+            width: 40%;
+            left: 0;
+        }
+        
+        .fifth-page .contact {
+            position: absolute;
+            background: #fff893;
+            left: 40%;
+            padding: 150px 50px;
+            height: 650px;
+        }
+        
+        .fifth-page h1 {
+            padding-bottom: 20px;
+        }
+        
+        .fifth-page button {
+            background: none;
+            color: black;
+            border-radius: 15px;
+            margin-top: 40px;
+            font-size: 25px;
+            padding: 2px 40px;
+            border: 2px solid black;
+        }
+        
+        .fifth-page button:hover {
+            background-color: #fff5689f;
+            box-shadow: 0 0 5px 0 black;
+        }
+        
+        @media (max-width:990px) {
+            .fifth-page img {
+                position: static;
+                width: 100%;
+            }
+            .fifth-page .contact {
+                position: static;
+                padding: 50px;
+                height: auto;
+            }
+        }
+        
+        @media (min-width:990px) {
+            .resp .footer {
+                margin-top: 57%;
+            }
+        }
